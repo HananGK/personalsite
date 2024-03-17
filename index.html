@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Hanan Gabarrón Kalito - Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Libre+Baskerville&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <nav class="navbar libre-baskerville-regular">
+        <img src="./Resources/Logo nombre.png" alt="Hanan Gabarrón Kalito´s logo" height="50px" class="icon">
+        <ul class="nav-items">
+            <li><a href="./index.html" class="nav-item">Home</a></li>
+            <li><a href="./Education.html" class="nav-item">Education</a></li>
+            <li><a href="./Skills.html" class="nav-item">Skills</a></li>
+            <li><a href="./Projects.html" class="nav-item">Projects</a></li>
+            <li><a href="./Work.html" class="nav-item">Experience</a></li>
+            <li><a href="./About.html" class="nav-item">About</a></li>
+            <li><a href="./Contact.html" class="nav-item">Contact</a></li>
+            <li><a href="./Resources/CV Hanan Gabarrón Kalito English.pdf" class="nav-item"><img src="./Resources/icons8-download-48.png" alt="download icon" height="15px"> CV</a></li>
+            <li class="dropdown nav-item">
+                <a  href="javascript:void(0)" class="dropbtn">Language</a>
+                <div class="dropdown-content">
+                        <a href="./index.html"><img src="./Resources/united-kingdom.png" height="30px" alt="united-kingdom flag"> En</a>
+                        <a href="./index-es.html"><img src="./Resources/spain.png" height="30px" alt="spain flag"> Esp</a>
+                </div>
+          </li>
+        </ul>
+
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+    </nav>
+
+    <div class="container">
+        <img src="./Resources/fondo estrellas.jpeg" alt="starry background" class="background">
+        <div class="blurred-box">
+            <h1 class="cinzel-decorative-bold">Hanan Gabarrón Kalito</h1> 
+            <h2 class="libre-baskerville-regular">Web Developer</h2>  
+            <p class="quote dancing-script">Constancy is the miracle power for achieving your dreams</p>
+        </div>
+    </div>
+
+    <hr class="hr-text" data-content="✧ ✧">
+
+    <div class="know-me libre-baskerville-regular">
+        <img class="graduation" src="./Resources/Graduation Photo.jpg" alt="Hanan Gabarrón's photo"/>
+        <h3 class="get">GET TO KNOW ME!</h3>
+        <p class="hi">Hi! My name is Hanan, I'm from Spain and I'm taking a course in Full-Stack Web Development.</br>Programming has always been my dream job and I'm doing my best for achieving that. :)</p>
+    </div>
+
+    <hr class="hr-text" data-content="✧ ✧">
+
+    <div class="libre-baskerville-regular">
+        <p class="sections">If you want to know a little more about me check the following sections:</p>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 6</div>
+                <img src="./Resources/literature-3091212_1280.jpg" style="width:100%">
+                <div class="text"><button><a href="./Education.html">Education</a></button></div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 6</div>
+                <img src="./Resources/success-4168389_1280.jpg" style="width:100%">
+                <div class="text"><button><a href="./Skills.html">Skills and other Achievements</a></button></div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 6</div>
+                <img src="./Resources/coding-1853305_1280.jpg" style="width:100%">
+                <div class="text"><button><a href="Projects">Projects</a></button></div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <img src="./Resources/startup-849804_1280.jpg" style="width:100%">
+                <div class="text"><button><a href="./Work.html">Work Experience</a></button></div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                <img src="./Resources/keyboard-417089_1280.jpg" style="width:100%">
+                <div class="text"><button><a href="./About.html">More about me</a></button></div>
+            </div>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                <img src="./Resources/office-620822_1280.jpg" style="width:100%">
+                <div class="text"><button><a href="./Contact.html">Contact</a></button></div>
+            </div>
+        
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
+          <span class="dot" onclick="currentSlide(5)"></span> 
+          <span class="dot" onclick="currentSlide(6)"></span> 
+        </div>
+    </div>
+
+    <div class="separator"><img class="separatorimg" src="./Resources/separador7.png"></div>
+
+    <footer class="footer libre-baskerville-regular">
+        <a href="https://github.com/HananGK"><img src="./Resources/GitHub-Embleme.png" width="100" alt="Github logo" /></a>
+        <a href="https://www.linkedin.com/in/hanangabarron/"><img src="./Resources/logo-linkedin-icon-4096.png" width="50" alt="LinkedIn logo"/></a>
+        <p>© 2024 Hanan Gabarrón Kalito. All rights reserved.</p>
+        <a href="https://www.flaticon.com/free-icons/united-kingdom" title="united kingdom icons">United kingdom icons created by Freepik - Flaticon</a>
+        </br>
+        <a href="https://www.flaticon.com/free-icons/spain" title="spain icons">Spain icons created by Freepik - Flaticon</a>
+        </br>
+        <a target="_blank" href="https://icons8.com/icon/YVvBuuFgxK6A/cardinal-points">Cardinal Points</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        </br>
+        <a target="_blank" href="https://icons8.com/icon/78608/hexagon">Hexagon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+    </footer>
+
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+    </script>
+    
+    <script src="./navbar.js"></script>   
+    
+</body>
+</html>
+
